@@ -7,4 +7,6 @@ load-local-conf() {
        source .env
      fi
 }
+
+load-local-conf
 add-zsh-hook chpwd load-local-conf

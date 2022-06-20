@@ -10,7 +10,7 @@ How to install
 
 ```
 cd ~/.oh-my-zsh/plugins
-git clone https://github.com/johnhamelink/env-zsh.git env
+git clone https://github.com/ea-sam/env-zsh.git env
 vi ~/.zshrc && reload
 
 # edit your plugin list by adding 'env'

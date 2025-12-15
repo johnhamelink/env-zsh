@@ -6,6 +6,10 @@ load-local-conf() {
      if [[ -f .env && -r .env ]]; then
        source .env
      fi
+     # additional env option to prevent conflicts between main Docker `.env` applications and terminal
+     if [[ -f .env.term && -r .env.term ]]; then
+       source .env.term
+     fi
 }
 
 load-local-conf
